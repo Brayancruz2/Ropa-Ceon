@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;;
+}
+
+body{
+    background: url(https://images.pexels.com/photos/6395415/pexels-photo-6395415.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-size: cover;
+    font-family: 'Krona One', sans-serif;
+    color: black;
+}
+.header{
+    background-color: #110f0f;
+    padding: 1rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.header a{
+    color: blanchedalmond;
+    text-decoration: none;
+    padding: 2rem 0;
+}
+
+.container{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+.main{
+    padding-top:12rem ;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shirt{
+    width: 85%;
+    max-width: 850px;
+    border-radius: 20px;
+}
+
+.precio{
+    background-color: #706c61;
+    margin: 1rem 3rem;
+    padding: 1rem 1rem;
+    border-radius: 12px;
+    color: cornsilk;
+    list-style: none;
+}
+
+.main div{
+    text-align: center;
+    margin-top: 10rem;
+    flex-grow: 1;
+    flex-basis: 10rem;
+}
+
+
+.logo{
+    width: 10%;
+    max-width: 850px;
+}
+
+.logo-nav-conatiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.nav ul li{
+    display: inline-block;
+}
+
+.nav ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+
+.nav ul li a:hover{
+    background: rgb(116, 116, 116);
+}
+
+.footer{
+    background: #f2f2f2;
+    padding:4rem 0 ;
+    text-align: center;
+    margin-top: 11rem;
+}
+

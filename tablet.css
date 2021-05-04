@@ -1,0 +1,29 @@
+.container{
+   width: 50%; 
+}
+.main{
+    padding-top:12rem ;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shirt{
+    width: 85%;
+    max-width: 850px;
+    border-radius: 20px;
+;
+}
+
+.precio{
+    background-color: #706c61;
+    margin: 1rem 3rem;
+    padding: 1rem 1rem;
+    border-radius: 12px;
+    color: cornsilk;
+}
+
+.main div{
+    text-align: center;
+    margin-top: 10rem;
+    flex-wrap: wrap;
+}
