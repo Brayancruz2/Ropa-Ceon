@@ -47,7 +47,7 @@ body{
 }
 
 .precio{
-    background-color: blue;
+    background-color: black;
     margin: 1rem 3rem;
     padding: 1rem 1rem;
     border-radius: 12px;
@@ -97,7 +97,7 @@ body{
 }
 
 .footer{
-    background: red;
+    background: #aaee;
     padding:4rem 0 ;
     text-align: center;
     margin-top: 11rem;
